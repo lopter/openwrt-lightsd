@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lightsd
-PKG_VERSION:=1.2.0-rc.4
+PKG_VERSION:=1.2.0-rc.5
 PKG_RELEASE:=1
 PKG_MAINTAINER:=Louis Opter <kalessin@kalessin.fr>
 PKG_LICENSE:=GPL-3.0+
 PKG_SOURCE_URL:=https://downloads.lightsd.io/releases/
-PKG_SOURCE:=lightsd-1.2.0-rc.4.tar.gz
-PKG_MD5SUM:=f80a3fb4f847588c7966a8b4c9cfcea3
+PKG_SOURCE:=lightsd-1.2.0-rc.5.tar.gz
+PKG_MD5SUM:=580156c173ad556438e17599ee2cf9d0
 PKG_BUILD_DIR:=$(BUILD_DIR)/lightsd-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
@@ -31,7 +31,7 @@ define Package/lightsd
   TITLE:=Daemon to control your LIFX Wi-Fi smart bulbs
   MAINTAINER:=Louis Opter <kalessin@kalessin.fr>
   URL:=https://github.com/lopter/lightsd
-  USERID:=lightsd:lightsd
+  USERID:=lightsd=56700:lightsd=56700
 endef
 
 define Package/lightsd/install
