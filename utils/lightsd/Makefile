@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lightsd
-PKG_VERSION:=1.2.1-rc.6
+PKG_VERSION:=1.2.1
 PKG_RELEASE:=1
 PKG_MAINTAINER:=Louis Opter <kalessin@kalessin.fr>
 PKG_LICENSE:=GPL-3.0+
 PKG_SOURCE_URL:=https://downloads.lightsd.io/releases/
-PKG_SOURCE:=lightsd-1.2.1-rc.6.tar.gz
-PKG_MD5SUM:=d67adaea111118dc72196837f7f6d157
+PKG_SOURCE:=lightsd-1.2.1.tar.gz
+PKG_MD5SUM:=3c5cd89a675903b0ff12e4cbced7f712
 PKG_BUILD_DIR:=$(BUILD_DIR)/lightsd-$(PKG_VERSION)
 
 include $(INCLUDE_DIR)/package.mk
